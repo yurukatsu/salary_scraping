@@ -7,10 +7,3 @@ def text2num(text:str) -> int:
     if last_letter in ["b", "B"]: num *= (10**9)
 
     return num
-
-class US:
-    def __init__(self):
-        self.state_names = ["NY"]
-        
-if __name__ == "__main__":
-    print(US().state_names)
